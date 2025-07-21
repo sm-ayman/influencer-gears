@@ -5,18 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Influencer Gears</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
     <header>
-        <nav></nav>
+        <nav>
+            <!-- Hamburger -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!-- logo -->
+            <h2 class="logo">Influencer products</h2>
+
+            <!-- cart-icon -->
+            <div class="cart-icon">
+                <a href=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+            </div>
+
+            <!-- all-nav-list -->
+            <ul class="nav-list">
+                <li><a href="" class="nav-item">Home</a></li>
+                <li><a href="" class="nav-item">Products</a></li>
+                <li><a href="" class="nav-item">Sign up</a></li>
+                <li><a href="" class="nav-item">Log in</a></li>
+                <li><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
         <div class="hero">
 
         </div>
         <div class="brands">
-            
+
         </div>
     </header>
 </body>
+<script>
+    const hamburger = document.querySelector('.hamburger');
+    const navList = document.querySelector('.nav-list');
+
+    hamburger.addEventListener('click', () => {
+        navList.classList.toggle('active');
+    });
+</script>
 
 </html>
