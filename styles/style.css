@@ -16,6 +16,9 @@
   color: white;
   font-weight: 600;
 }
+main {
+  margin: 100px 150px;
+}
 /* header-styles */
 /* nav */
 nav {
@@ -85,7 +88,6 @@ nav ul li a i {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  margin: 50px 150px;
   border-top: 1px dotted #aaaaaa;
   border-bottom: 1px dotted #aaaaaa;
   padding: 20px;
@@ -156,6 +158,9 @@ nav ul li a i {
     position: relative;
     width: 300px;
     margin-top: 40px;
+  }
+  main {
+    margin: 0px;
   }
   .brands {
     margin: 0px;
