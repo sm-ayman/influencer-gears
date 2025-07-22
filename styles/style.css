@@ -78,6 +78,23 @@ nav ul li a i {
   width: 80%;
 }
 
+/* brands */
+.brands {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 50px 150px;
+  border-top: 1px dotted #aaaaaa;
+  border-bottom: 1px dotted #aaaaaa;
+  padding: 20px;
+}
+
+.brands img {
+  max-width: 100%;
+}
+
 @media screen and (max-width: 576px) {
   /* nav */
   nav {
@@ -139,5 +156,10 @@ nav ul li a i {
     position: relative;
     width: 300px;
     margin-top: 40px;
+  }
+  .brands {
+    margin: 0px;
+    border: none;
+    margin-top: 20px;
   }
 }
